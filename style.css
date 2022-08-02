@@ -32,7 +32,6 @@ body {
     justify-content: center;
     align-items: center;
     background-color: var(--VeryDarkBlue);
-    display: none;  /*ACTIVAR/DESACTIVAR DISPLAY*/
 }
 
 .rating_card_sub_container {
@@ -112,6 +111,10 @@ body {
     justify-content: center;
     align-items: center;
     background-color: var(--VeryDarkBlue);
+}
+
+.card_invisible {
+    display: none;
 }
 
 .thankyou_card_sub_container {
